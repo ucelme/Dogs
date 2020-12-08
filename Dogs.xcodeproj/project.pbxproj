@@ -13,6 +13,8 @@
 		CCA6C466257C4ABB0075CB87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA6C464257C4ABB0075CB87 /* Main.storyboard */; };
 		CCA6C468257C4ABC0075CB87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA6C467257C4ABC0075CB87 /* Assets.xcassets */; };
 		CCA6C46B257C4ABC0075CB87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA6C469257C4ABC0075CB87 /* LaunchScreen.storyboard */; };
+		CCA6C474257C4B060075CB87 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6C473257C4B060075CB87 /* Network.swift */; };
+		CCA6C477257C4B360075CB87 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6C476257C4B360075CB87 /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CCA6C467257C4ABC0075CB87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA6C46A257C4ABC0075CB87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA6C46C257C4ABC0075CB87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA6C473257C4B060075CB87 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CCA6C476257C4B360075CB87 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				CCA6C45E257C4ABB0075CB87 /* AppDelegate.swift */,
 				CCA6C460257C4ABB0075CB87 /* SceneDelegate.swift */,
+				CCA6C476257C4B360075CB87 /* Dog.swift */,
+				CCA6C473257C4B060075CB87 /* Network.swift */,
 				CCA6C462257C4ABB0075CB87 /* ViewController.swift */,
 				CCA6C464257C4ABB0075CB87 /* Main.storyboard */,
 				CCA6C467257C4ABC0075CB87 /* Assets.xcassets */,
@@ -139,6 +145,8 @@
 			files = (
 				CCA6C463257C4ABB0075CB87 /* ViewController.swift in Sources */,
 				CCA6C45F257C4ABB0075CB87 /* AppDelegate.swift in Sources */,
+				CCA6C474257C4B060075CB87 /* Network.swift in Sources */,
+				CCA6C477257C4B360075CB87 /* Dog.swift in Sources */,
 				CCA6C461257C4ABB0075CB87 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
